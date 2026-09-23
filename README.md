@@ -14,6 +14,8 @@ microsoft-agents-activity==1.5.0
 pydantic==2.13.4
 ```
 
+Note: Reproduced after upgrading to microsoft-agents-copilotstudio-client==1.7.0
+
 The Copilot Studio request itself succeeds. Conversations are created successfully and some responses are processed successfully. The failure occurs only on responses containing a citation with an `@id` field.
 
 The resulting error is:
